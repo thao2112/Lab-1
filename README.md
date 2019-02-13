@@ -58,6 +58,6 @@ R6=2200
 Vs=2
 R=R4+R5+R6
 I=Vs/R
-(sympy.solve([V4-R4*I4, V5-R5*I5, V6-R6*I6, Vs-V4-V5-V6, Is-I4, I4-I5, I5-I6, Is-I], (V1,V2,V3,I1,I2,I3,Is), implicit=True))
+(sympy.solve([V4-R4*I4, V5-R5*I5, V6-R6*I6, Vs-V4-V5-V6, Is-I4, I4-I5, I5-I6, Is-I], (V4,V5,V6,I4,I5,I6,Is), implicit=True))
 
 
